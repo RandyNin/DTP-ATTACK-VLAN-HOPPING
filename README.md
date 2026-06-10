@@ -64,7 +64,7 @@ Dentro de la interfaz interactiva:
 |:-:|:--|
 |`g`|Seleccionar protocolo DTP|
 |`x`|Abrir panel de ataques|
-|`1` + `Enter`|Ejecutar "enabling trunking"|
+|`1`|Ejecutar "enabling trunking"|
 
 Yersinia envía tramas DTP anunciando modo `desirable`. El puerto Gi0/0 de Sw-3 (en modo `dynamic auto` por defecto) responde a la negociación y transiciona automáticamente a modo trunk con encapsulación n-802.1Q, permitiendo VLANs 1-4094.
 
