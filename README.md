@@ -1,6 +1,6 @@
 # DTP-ATTACK-VLAN-HOPPING
 
-> **Autor:** Randy Nin | **Matrícula:** 2025-0660 **Laboratorio de Seguridad de Redes | GNS3**
+> **Autor:** Randy Nin **Laboratorio de Seguridad de Redes | GNS3**
 
 Demostración de VLAN Hopping en dos fases mediante explotación del protocolo DTP (Dynamic Trunking Protocol) de Cisco. En la primera fase, Yersinia fuerza al switch víctima a negociar un trunk malicioso en su puerto de acceso enviando tramas DTP de tipo "enabling trunking". En la segunda fase, se crea una subinterfaz Linux con tag 802.1Q para cruzar el aislamiento de VLAN y alcanzar directamente hosts en segmentos a los que no se tiene acceso legítimo, sin pasar por ningún dispositivo de Capa 3.
 
